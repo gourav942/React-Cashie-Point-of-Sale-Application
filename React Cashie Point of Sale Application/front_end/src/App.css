@@ -1,0 +1,226 @@
+#login-window{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+}
+
+#login-box{
+    min-width: 340px !important;
+    box-shadow: 0px 0px 20px #d4d4d4;
+}
+
+.glassy-dark-bg{
+    background-color: rgba(0, 0, 0, 0.445) !important;
+}
+
+.full-opacity-bg{
+    background-color: transparent !important;
+}
+
+.rounded-custom{
+    border-radius: 20px !important;
+}
+
+.rounded-custom-15{
+  border-radius: 15px !important;
+}
+
+#loading-window{
+  position: absolute;
+  border: 3px solid black;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  z-index: 100;
+}
+
+#loading-animation{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 40vw;
+  min-width: 340px !important;
+  transform: translate(-50%, -50%)
+}
+
+/* Dash Board Styling */
+.main-window{
+  background-color: #1b1b1b;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar{
+  background-color: #303456b2;
+  max-width: 110px !important;
+  min-width: 90px !important;
+  z-index: 1050;
+}
+
+.sidebar-text{
+  font-size: 0.8rem;
+}
+
+.sidebar-button:hover{
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+.w-80{
+  width: 80%;
+}
+
+.navbar{
+  background-color: blue;
+  min-height: 64px;
+}
+
+.dummy-space{
+  max-width: 110px !important;
+  min-width: 90px !important;
+}
+
+.main-content{
+  background-color: cyan;
+}
+
+.fixed-navbar{
+  position: fixed !important;
+  top: 0;
+  z-index: 1030;
+  width: 100%;
+  left: 0;
+}
+
+.dropdown-list{
+  left: auto !important;
+  right: 0;
+}
+
+.dummy-height{
+  height: 64px;
+}
+
+.btn-theme{
+  background-color: #ea517a !important;
+}
+.btn-theme:hover{
+  background-color: #ea517ac0 !important;
+}
+.bg-theme{
+  background-color: #ea517ac0 !important;
+}
+
+input:focus{
+  outline: none;
+}
+input:focus{
+  box-shadow: 0px 0px 3px white !important;
+}
+select:focus{
+  box-shadow: 0px 0px 3px white !important;
+  outline: none;
+}
+textarea:focus{
+  box-shadow: 0px 0px 3px white !important;
+  outline: none;
+}
+.card:hover{
+  box-shadow: 0px 0px 3px white !important;
+}
+
+#role:focus{
+  outline: none;
+}
+#sort:focus{
+  outline: none;
+}
+
+.text-theme{
+  color: #ea517a !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.swal2-popup{
+  background-color: #3a3a3a !important;
+}
+
+.swal2-title{
+  color: rgb(218, 218, 218) !important;
+}
+
+.swal2-html-container{
+  color: rgb(218, 218, 218) !important;
+}
+
+.username{
+  text-shadow: 0px 0px 20px blue;
+  color: #ff0076;
+}
+
+.form-bg{
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+.btn-theme-linear{
+  background: linear-gradient(45deg, rgba(234,81,121,1) 0%, rgba(172,54,115,1) 100%);
+}
+
+.btn-theme-linear:hover{
+  background: linear-gradient(45deg, rgba(234, 81, 122, 0.8) 0%, rgba(172, 54, 115, 0.8) 100%);
+}
+
+textarea{
+  resize: none !important;
+}
+
+.no-image-holder{
+  width: 64px;
+  height: 64px;
+}
+
+.cart-min-width{
+  min-width: 330px !important;
+}
+
+.receipt-modal{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00000094;
+  z-index: 1060;
+}
+
+.receipt{
+  min-width: 330px;
+}
+
+.dashboard-transaction-bg{
+  background: linear-gradient(16deg, rgba(234, 81, 122, 0.75) 0%, rgba(172,54,115,0.75) 100%);
+}
+
+.dashboard-income-bg{
+  background: linear-gradient(16deg, rgba(195,84,215,0.75) 0%, rgba(136,74,206,0.75) 100%);
+}
+
+.dashboard-product-bg{
+  background: linear-gradient(16deg, rgba(245,90,158,0.75) 0%, rgba(255,155,106,0.75) 100%);
+}
+
+.dashboard-panel-icon{
+  font-size: 4rem !important;
+  color: rgba(255, 255, 255, 0.6);
+}
+.dashboard-panel{
+  min-width: 300px;
+}
